@@ -15,7 +15,7 @@ data = {
 }
 
 df = pd.DataFrame(data) 
-df['Total Price'] = df['Price'] * df['Quantity']
+df['Total'] = df['Price'] * df['Quantity']
 
 # Sidebar Filter 
 st.sidebar.header("Filters")
